@@ -7,22 +7,22 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/budget", {
 
 var imageSeed = [
   {
-    name: 'tom',
+    name: 'Xavier',
     value: 123,
     date: new Date(Date.now())
   },
   {
-    name: 'tom1',
+    name: 'Xavier1',
     value: 123,
     date: new Date(Date.now())
   },
   {
-    name: 'tom2',
+    name: 'Xavier2',
     value: 123,
     date: new Date(Date.now())
   },
   {
-    name: 'tom3',
+    name: 'Xavier3',
     value: 123,
     date: new Date(Date.now())
   },
