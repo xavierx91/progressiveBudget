@@ -19,7 +19,7 @@ app.use(express.static("public"));
 mongoose.connect("mongodb://localhost/budget", {
   useNewUrlParser: true,
   useFindAndModify: false
-});
+}).catch(error => error)
 
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, "public/index.html"));
